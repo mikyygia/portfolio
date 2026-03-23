@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+.container div {
+    flex: 1;
+    
+}
+
+.container div:first-child {
+    flex: 0 0 30%;
+    background-color: aliceblue;
+}
+

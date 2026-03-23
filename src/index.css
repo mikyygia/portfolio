@@ -1,0 +1,21 @@
+.navigation {
+    border: 1.5px solid black;
+    padding: 8px 16px;
+}
+
+.current-nav {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+}
+
+ul li {
+    margin-right: 8px;
+}
